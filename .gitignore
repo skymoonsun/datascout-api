@@ -1,0 +1,21 @@
+###> symfony/framework-bundle ###
+/symfony/.env
+/symfony/.env.local
+/symfony/.env.local.php
+/symfony/.env.*.local
+/symfony/config/secrets/prod/prod.decrypt.private.php
+/symfony/public/bundles/
+/symfony/var/
+/symfony/vendor/
+###< symfony/framework-bundle ###
+
+###> lexik/jwt-authentication-bundle ###
+/symfony/config/jwt/*.pem
+###< lexik/jwt-authentication-bundle ###
+
+###> liip/imagine-bundle ###
+/symfony/public/media/cache/
+###< liip/imagine-bundle ###
+
+/mysql/
+/rabbitmq/
