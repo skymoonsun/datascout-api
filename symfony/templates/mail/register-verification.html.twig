@@ -1,0 +1,605 @@
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="tr" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title></title>
+    <!--[if gte mso 9]>
+    <style>
+        .em_font {font-family: "Montserrat", sans-serif!important;}
+    </style>
+    <![endif]-->
+    <!--[if !mso]><!-->
+    <!--<![endif]-->
+    <style type="text/css">
+        @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700%7cOpen+Sans:400,700&display=swap");
+        body {
+            font-family: "Montserrat", sans-serif!important;
+            background-color: #2a2a2a;
+        }
+
+        .text-center,
+        .btn,
+        .remove,
+        .blockRight {
+            font-family: "Montserrat", sans-serif!important;
+        }
+
+        table {
+            font-family: "Montserrat", sans-serif!important;
+        }
+
+        td {
+            font-family: "Montserrat", sans-serif!important;
+        }
+
+        sup {
+            font-size: 100% !important;
+        }
+    </style>
+    <!--[endif]-->
+    <!--[if gte mso 12]>
+    <style type="text/css">
+        body {
+            font-family: "Montserrat", sans-serif!important;
+        }
+
+        .text-center,
+        .btn,
+        .remove,
+        .blockRight {
+            font-family: "Montserrat", sans-serif!important;
+        }
+
+        table {
+            font-family: "Montserrat", sans-serif!important;
+        }
+
+        td {
+            font-family: "Montserrat", sans-serif!important;
+        }
+
+        sup {
+            font-size: 100% !important;
+        }
+    </style>
+    <![endif]-->
+    <!--[if gte mso 14]>
+    <style type="text/css">
+        body {
+            font-family: "Montserrat", sans-serif!important;
+        }
+
+        .text-center,
+        .btn,
+        .remove,
+        .blockRight {
+            font-family: "Montserrat", sans-serif!important;
+        }
+
+        table {
+            font-family: "Montserrat", sans-serif!important;
+        }
+
+        td {
+            font-family: "Montserrat", sans-serif!important;
+        }
+
+        sup {
+            font-size: 100% !important;
+        }
+    </style>
+    <![endif]-->
+    <!--[if gte mso 15]>
+    <style type="text/css">
+        body {
+            font-family: "Montserrat", sans-serif!important;
+        }
+
+        .text-center,
+        .btn,
+        .remove,
+        .blockRight {
+            font-family: "Montserrat", sans-serif!important;
+        }
+
+        table {
+            font-family: "Montserrat", sans-serif!important;
+        }
+
+        td {
+            font-family: "Montserrat", sans-serif!important;
+        }
+
+        sup {
+            font-size: 100% !important;
+        }
+    </style>
+    <![endif]-->
+    <!--[if gte mso 16]>
+    <style type="text/css">
+        body {
+            font-family: "Montserrat", sans-serif!important;
+        }
+
+        .text-center,
+        .btn,
+        .remove,
+        .blockRight {
+            font-family: "Montserrat", sans-serif!important;
+        }
+
+        table {
+            font-family: "Montserrat", sans-serif!important;
+        }
+
+        td {
+            font-family: "Montserrat", sans-serif!important;
+        }
+
+        sup {
+            font-size: 100% !important;
+        }
+    </style>
+    <![endif]-->
+
+    <style type="text/css">
+
+        .show {
+            display: none;
+        }
+
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        body {
+            margin: 0 !important;
+            padding: 0 !important;
+            -webkit-text-size-adjust: none !important;
+            -ms-text-size-adjust: 100% !important;
+            -webkit-font-smoothing: antialiased !important;
+        }
+
+        img {
+            border: 0 !important;
+            outline: none !important;
+        }
+
+        table {
+            border-collapse: collapse;
+            mso-table-lspace: 0px;
+            mso-table-rspace: 0px;
+        }
+
+        td, a, span {
+            border-collapse: collapse;
+            mso-line-height-rule: exactly;
+        }
+
+        .ExternalClass * {
+            line-height: 100%;
+        }
+
+
+        table.status-summary {
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+
+        table.status-summary th {
+            border: 1px solid black;
+        }
+
+        table.status-summary td {
+            border: 1px solid black;
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+
+        td.num-type {
+            text-align: right;
+        }
+
+        .em_defaultlink a {
+            color: inherit !important;
+            text-decoration: none !important;
+        }
+
+        span.MsoHyperlink {
+            mso-style-priority: 99;
+            color: inherit;
+        }
+
+        span.MsoHyperlinkFollowed {
+            mso-style-priority: 99;
+            color: inherit;
+        }
+
+        @media only screen and (min-width:481px) and (max-width:650px) {
+            .em_main_table {
+                width: 100% !important;
+            }
+
+            span[class=em_divhide] {
+                display: none !important;
+            }
+
+            .em_wrapper {
+                width: 100% !important;
+                max-width: 100% !important;
+                min-width: 100% !important;
+            }
+
+            img[class="image-100-percent"] {
+                width: 100% !important;
+                height: auto;
+                max-width: 100% !important;
+                min-width: 100% !important;
+            }
+
+            .em_aside {
+                padding: 30px 15px !important; /*Update the values as required*/
+                Margin-left: 15px !important;
+                Margin-right: 15px !important;
+            }
+
+            .em_aside1 {
+                padding: 30px 15px !important; /*Update the values as required*/
+                Margin-left: 15px !important;
+                Margin-right: 15px !important;
+            }
+
+            .em_hide {
+                display: none !important;
+            }
+
+            .em_full_img {
+                width: 100% !important;
+                height: auto !important;
+                max-width: 100% !important;
+                min-width: 100% !important;
+                min-width: 100vw !important;
+            }
+
+            .em_align_cent {
+                text-align: center !important;
+            }
+
+            .em_spc_20 {
+                height: 30px !important;
+            }
+
+            .em_side {
+                width: 10px !important;
+            }
+
+            .em_top {
+                padding-top: 20px !important;
+            }
+
+            .em_top1 {
+                padding-top: 15px !important;
+            }
+
+            .em_auto {
+                height: auto !important;
+            }
+
+            .em_height_fixed {
+                height: 320px !important;
+            }
+
+            .em_border {
+                border-right: none !important;
+                border-bottom: 1px solid #ffffff !important;
+            }
+        }
+
+        @media only screen and (max-width:480px) {
+
+            .em_main_table {
+                width: 100% !important;
+            }
+
+            span[class=em_divhide] {
+                display: none !important;
+            }
+
+            .em_wrapper {
+                width: 100% !important;
+                max-width: 100% !important;
+                min-width: 100% !important;
+            }
+
+            img[class="image-100-percent"] {
+                width: 100% !important;
+                height: auto;
+                max-width: 100% !important;
+                min-width: 100% !important;
+            }
+
+            .em_aside {
+                padding: 30px 15px !important; /*Update the values as required*/
+                Margin-left: 15px !important;
+                Margin-right: 15px !important;
+            }
+
+            .em_aside1 {
+                padding: 30px 15px !important; /*Update the values as required*/
+                Margin-left: 15px !important;
+                Margin-right: 15px !important;
+            }
+
+            .em_hide {
+                display: none !important;
+            }
+
+            .em_full_img {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            .em_align_cent {
+                text-align: center !important;
+            }
+
+            .em_spc_20 {
+                height: 30px !important;
+            }
+
+            .em_side {
+                width: 10px !important;
+            }
+
+            .em_top {
+                padding-top: 20px !important;
+            }
+
+            .em_auto {
+                height: auto !important;
+            }
+
+            .em_height_fixed {
+                height: 320px !important;
+            }
+
+            .em_margin_10 {
+                Margin-left: 15px !important;
+                Margin-right: 15px !important;
+            }
+
+            .em_top1 {
+                padding-top: 15px !important;
+            }
+
+            .em_border {
+                border-right: none !important;
+                border-bottom: 1px solid #ffffff !important;
+            }
+        }
+
+        .MsoNormal {
+            font-family: "DINPro-Regular", Arial, Helvetica, Sans-Serif !important;
+            font-weight: lighter;
+        }
+
+        .mktoText{
+            font-family: "DINPro-Regular", Arial, Helvetica, Sans-Serif;
+        }
+    </style>
+    <!--[if gte mso 9]>
+
+
+
+
+
+
+    <![endif]-->
+</head>
+<body style="margin:0px; padding:0px;" class="">
+<!--Full width outer table start--> <!-- Preheader Copy Start -->
+<table class="show" width="100%" border="0" cellspacing="0" cellpadding="0" style="display: none; width: 0px; height: 0px; max-width: 0px; max-height: 0px; overflow: hidden; opacity: 0; mso-hide: all;">
+    <tbody>
+    <tr>
+        <td class="mktoText" id="Preheadertext" style="font-size: 1px; color: #ffffff; font-weight: normal; text-align: center;"></td>
+    </tr>
+    </tbody>
+</table>
+<!-- Preheader Copy End --> <!-- Header Logo Start -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#2a2a2a">
+    <tbody>
+    <tr>
+        <td align="center" valign="top">
+            <!--snippet-->
+            <div class="mktoSnippet" id="HeaderLogoOnline">
+                <table style="table-layout: fixed;" class="em_main_table" width="680" cellspacing="0" cellpadding="0" border="0" align="center">
+                    <tbody>
+                    <tr>
+                        <td class="em_aside" style="padding: 15px 40px 15px 40px;" valign="top" align="center">
+                            <table class="em_wrapper" style="width: 600px;" width="600" cellspacing="0" cellpadding="0" border="0" align="center">
+                                <tbody>
+                                <tr>
+                                    <td valign="top" align="center">
+                                        <table class="em_wrapper" style="width: 150px;" width="150" cellspacing="0" cellpadding="0" border="0" align="left">
+                                            <tbody>
+                                            <tr>
+                                                <td valign="top" align="center"><a href="{{ url }}" style="color: #666666; text-decoration: none;" target="_blank" title="DataScout"><img src="{{ logoUrl }}"  alt="DataScout" style="margin: 0; padding: 0; border: 0; width: 100%; height: auto" id="DataScout-logo" constrain="true" imagepreview="false" height="50"></a></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div></div>
+            </div>
+            <!--end snippet-->
+        </td>
+    </tr>
+    </tbody>
+</table>
+<!-- Header Logo End --> <!-- Sub Icon STARTS -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f07722">
+    <tbody>
+    <tr>
+        <td align="center" valign="top">
+            <table width="680" border="0" cellspacing="0" cellpadding="0" align="center" style="table-layout: fixed;" class="em_main_table">
+                <tbody>
+                <tr>
+                    <td align="center" valign="top">
+                        <table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="width: 600px;">
+                            <tbody>
+                            <tr>
+                                <td height="1" style="border-bottom: 2px solid #f07722; line-height: 0px;"></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<!-- Sub Icon ENDS -->
+<table style="width: 100%;" cellspacing="0" cellpadding="0" border="0">
+    <tbody>
+    <tr>
+        <td class="mktoContainer" id="MainContainer">
+            <table class="mktoModule" id="Module12FullWidthTextNoCTAdcbef793-fe4f-40cf-ae8d-d7aa4b718808" width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #2a2a2a;" bgcolor="#ffffff">
+                <tbody>
+                <tr>
+                    <td align="center" data-nl-format="datetime">
+                        <table width="680" border="0" cellspacing="0" cellpadding="0" align="center" style="table-layout: fixed;" class="em_main_table">
+                            <tbody>
+                            <tr>
+                                <td class="em_aside1" style="padding: 60px 40px 60px 40px;" align="center" valign="top">
+                                    <table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="width: 600px;">
+                                        <tbody>
+                                        <tr>
+                                            <td align="center" valign="top" class="mktoText" id="Module12FullWidthTextNoCTACopyBlockdcbef793-fe4f-40cf-ae8d-d7aa4b718808">
+                                                <table width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="width: 600px;" class="em_wrapper">
+                                                    <tbody>
+                                                    <tr>
+                                                        <td align="left" class="em_font" style="color: #959595; font-size: 16px; line-height: 24px;">
+                                                            {{ text1 }},<br><br>
+                                                            {{ text2 }}<br><br><br><br>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left">
+                                                            <!--BUTTON START-->
+                                                            <table align="left" border="0" bgcolor="#f07722" cellpadding="0" cellspacing="0" style="border: 1px solid #f07722;">
+                                                                <tbody>
+                                                                <tr>
+                                                                    <td align="center" class="em_font" valign="middle" style="color: #ffffff; font-size: 14px; font-weight: bold; padding: 13px 21px 13px 21px; letter-spacing: 1px;"><a href="{{ confirmationUrl }}" style="text-decoration: none; color: #ffffff; display: block;">{{ buttonText }}</a></td>
+                                                                </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <!--BUTTON END--></td>
+                                                    </tr>
+                                                    </tbody></table></td>
+                                        </tr></tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+
+
+
+<!--Full width table End-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#343a40">
+    <tbody>
+    <tr>
+        <td align="center" valign="top">
+            <table width="680" border="0" cellspacing="0" cellpadding="0" align="center" style="table-layout: fixed;" class="em_main_table">
+                <tbody>
+                <tr>
+                    <td class="em_aside1" style="padding: 30px 30px 30px 30px;" align="center" valign="top">
+                        <table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper" style="width: 600px;">
+                            <tbody>
+                            <tr>
+                                <td align="center" valign="top"><!--snippet-->
+                                    <div class="mktoSnippet" id="NumesysSubheading">
+                                        <div>
+                                            <table width="600" border="0" cellspacing="0" cellpadding="0" align="left" class="em_wrapper" style="width: 600px;">
+                                                <tbody>
+                                                <tr>
+                                                    <td class="em_font" align="center" style="color: #FFFFFF; font-size: 16px; line-height: 24px;" data-nl-format="datetime"></td>
+                                                </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <!--end snippet--></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<!-- Footer Start -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#2a2a2a">
+    <tbody>
+    <tr>
+        <td align="center" valign="top" style="padding: 0px 10px 0px 10px;">
+            <!--snippet-->
+            <table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="em_wrapper em_font" style="width: 600px;">
+                <tbody class="em_wrapper em_font">
+                <tr>
+                    <td class="em_spc_20" height="60"><img src="{{ cdnUrl }}img/spacer.gif" width="1" height="1" alt=" " style="display: block;" border="0"></td>
+                </tr>
+                <tr>
+                    <td align="center" class="em_font" style="color: #959595; font-size: 11px; line-height: 20px; letter-spacing: 1px; text-decoration: none; display: block;"><a href="{{ url }}" class="em_font" style="color: #959595; text-decoration: none;" target="_blank">{{ footerText }}</a> | <a href="{{ footerUrl }}" target="_blank" class="em_font" style="color: #959595; text-decoration: none;">{{ footerText2 }}</a></td>
+                </tr>
+                <tr>
+                    <td align="center" class="em_font" style="color: #959595; font-size: 11px; line-height: 24px; letter-spacing: 1px;">{{ copyrightText }}</td>
+                </tr>
+
+                </tbody>
+            </table>
+            <!--end snippet-->
+        </td>
+    </tr>
+    <tr>
+        <td class="em_spc_20" height="30"><img src="{{ cdnUrl }}img/spacer.gif" width="1" height="1" alt=" " style="display: block;" border="0"></td>
+    </tr>
+    <tr>
+        <td valign="top" align="center"><a href="{{ url }}" style="color: #666666; text-decoration: none;" target="_blank"><img src="{{ footerLogoUrl }}" style="margin: 0; padding: 0; width=100%; height: auto border: 0;" constrain="true" imagepreview="false" height="200"></a></td>
+    </tr>
+    <tr>
+        <td class="em_spc_20" height="60"><img src="{{ cdnUrl }}img/spacer.gif" width="1" height="1" alt=" " style="display: block;" border="0"></td>
+    </tr>
+    </tbody>
+</table>
+<!-- Footer End -->
+</body>
+</html>
