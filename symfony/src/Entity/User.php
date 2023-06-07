@@ -74,7 +74,7 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
      * @var string The hashed password
      */
     #[ORM\Column]
-    #[Groups([ResponseGroups::GROUP_USER_VIEW, ResponseGroups::GROUP_USER_WRITE])]
+    #[Groups([ResponseGroups::GROUP_USER_WRITE])]
     private ?string $password = null;
 
     #[Groups([ResponseGroups::GROUP_USER_VIEW, ResponseGroups::GROUP_USER_WRITE])]
