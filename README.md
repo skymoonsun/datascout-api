@@ -11,6 +11,12 @@ docker exec -it datascout-api-php bash
 composer update
 ```
 
+3. Veritabanı oluşturma & update:
+```
+php bin/console doctrine:database:create
+sh dbupdate.sh
+```
+
 
 <hr>
 
