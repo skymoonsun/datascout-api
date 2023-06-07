@@ -11,4 +11,7 @@ class ResponseGroups {
     public const GROUP_USER_TARGET_VIEW = 'userTarget.view';
     public const GROUP_USER_TARGET_WRITE = 'userTarget.write';
 
+    public const GROUP_DATA_FEED_VIEW = 'dataFeed.view';
+    public const GROUP_DATA_FEED_WRITE = 'dataFeed.write';
+
 }
